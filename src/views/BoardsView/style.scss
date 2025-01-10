@@ -1,0 +1,60 @@
+.boards-view {
+  &-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__header {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  &__body {
+    flex-grow: 1;
+    display: flex;
+    margin-top: 32px;
+    padding-left: 45px;
+  }
+}
+
+.title-container {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.actions-wrapper {
+  display: inline-flex;
+  gap: 16px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.empty-container {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boards-cards {
+  &-container {
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    display: inline-flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+  }
+
+  &-item {
+    width: calc(25% - 12px);
+    height: 180px;
+  }
+}
+
+.without-options {
+  height: 120px;
+}

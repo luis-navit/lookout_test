@@ -1,0 +1,17 @@
+.learning-form-wrapper {
+  flex-grow: 1;
+}
+
+.learning-drawer-wrapper {
+  flex-grow: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.common-form {
+  padding-top: 16px;
+  display: flex;
+  flex-direction: column;
+}

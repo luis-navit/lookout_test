@@ -1,0 +1,10 @@
+.header-back-title-wrapper {
+  display: inline-flex;
+  gap: 16px;
+}
+
+.back-icon {
+  &:hover {
+    cursor: pointer;
+  }
+}

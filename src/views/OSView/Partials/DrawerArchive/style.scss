@@ -1,0 +1,33 @@
+.data-type-select {
+  width: 100%;
+}
+
+.list {
+  &__wrapper {
+    height: 100%;
+  }
+
+  &-container {
+    list-style: none;
+    padding: 0 !important;
+  }
+}
+
+.empty-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.drawer-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.info {
+  &-container {
+    height: calc(100% - 36px);
+  }
+}

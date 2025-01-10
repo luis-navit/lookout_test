@@ -1,0 +1,21 @@
+.collapse-wrapper {
+  border: none !important;
+}
+
+.custom-collapse-item {
+  border: 1px solid var(--el-color-neutral-4);
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.item {
+  &__title {
+    padding: 0 16px;
+    width: 100%;
+  }
+
+  &__wrapper {
+    padding: 16px 16px 0 16px;
+    width: 100%;
+  }
+}

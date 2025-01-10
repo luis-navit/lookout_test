@@ -1,0 +1,13 @@
+.switch-control {
+  width: 200px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.config-drawer-container {
+  height: 100%;
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+}

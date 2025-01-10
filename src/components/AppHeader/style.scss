@@ -1,0 +1,63 @@
+.header {
+  &-left {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  &-container {
+    height: 50px;
+    padding: 10px 24px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--el-color-neutral-2);
+  }
+
+  &-logo {
+    height: 32px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &-logo-mark {
+    height: 32px;
+    width: 141px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.dropdown {
+  &-activator {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.menu-icon {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.header-left-container {
+  gap: 36px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.switch-theme {
+  --el-switch-on-color: #404040;
+  --el-switch-off-color: #cccccc;
+}

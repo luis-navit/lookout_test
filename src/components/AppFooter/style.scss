@@ -1,0 +1,13 @@
+.footer-container {
+  height: 50px;
+  padding: 5px 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--el-color-neutral-3);
+}
+
+.footer-text {
+  color: var(--el-color-on-neutral-3);
+}

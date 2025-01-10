@@ -1,0 +1,47 @@
+.reset-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.title-container {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.form-container {
+  width: 100%;
+}
+
+.password-form {
+  &-container {
+    width: 100%;
+    padding: 32px;
+    max-width: 640px;
+    border-radius: 16px;
+    border: 1px solid var(--el-color-neutral-4);
+    background-color: var(--el-color-neutral-1);
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    align-items: center;
+  }
+
+  &__footer {
+    gap: 16px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.grow {
+  width: 100%;
+  margin: 0 !important;
+}

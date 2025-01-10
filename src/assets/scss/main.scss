@@ -1,0 +1,98 @@
+@use 'colors';
+
+$navbar-width: 200px;
+
+.custom-progress .el-progress-bar__inner {
+  background-color: var(--el-color-secondary) !important;
+}
+
+.custom-collapse-item .el-collapse-item__header {
+  background-color: var(--el-color-neutral-1) !important;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.el-table th.el-table__cell {
+  background-color: var(--el-color-neutral-1) !important;
+}
+
+.custom-svg svg {
+  width: 100%;
+}
+
+.custom-switch.is-checked {
+  .el-switch__core {
+    background-color: var(--el-color-secondary) !important;
+    border-color: var(--el-color-secondary) !important;
+  }
+}
+
+.custom-checkbox.is-checked {
+  border-color: var(--el-color-secondary) !important;
+
+  .el-checkbox__label {
+    color: var(--el-color-secondary) !important;
+  }
+
+  .el-checkbox__inner {
+    border-color: var(--el-color-secondary) !important;
+    background-color: var(--el-color-secondary) !important;
+  }
+}
+
+.danger-btn {
+  background-color: var(--el-color-danger) !important;
+  border-color: var(--el-color-danger) !important;
+}
+
+.el-drawer__body {
+  padding-top: 0 !important;
+}
+
+.el-date-editor.grow {
+  width: 100% !important;
+}
+
+.custom-upload {
+  width: calc(30vw - 60px) !important;
+  height: 100%;
+  padding: 8px !important;
+  overflow-x: auto;
+
+  .el-upload-list {
+    gap: 8px !important;
+    overflow-x: auto;
+    padding-top: 10px;
+    flex-wrap: nowrap !important;
+    flex-direction: row-reverse !important;
+  }
+
+  .el-upload-dragger {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .el-upload-list--picture-card .el-upload-list__item {
+    overflow: visible !important;
+  }
+
+  .el-upload--picture-card {
+    margin-right: 8px;
+  }
+}
+
+.custom-tag.el-tag {
+  background-color: var(--el-color-secondary) !important;
+  border-color: var(--el-color-secondary) !important;
+}
+
+.custom-select .el-tag {
+  background-color: var(--el-color-secondary) !important;
+  color: var(--el-color-white) !important;
+
+  > i {
+    color: var(--el-color-white) !important;
+  }
+}

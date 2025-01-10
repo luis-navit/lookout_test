@@ -1,0 +1,28 @@
+.data-card {
+  width: 100%;
+  height: 100%;
+  padding: 16px;
+  display: inline-flex;
+  gap: 16px;
+  background-color: var(--el-color-neutral-1);
+  border: 1px solid var(--el-color-neutral-4);
+  border-radius: 16px;
+  align-items: center;
+  justify-content: space-between;
+
+  &:hover {
+    cursor: pointer;
+    background-color: var(--el-color-neutral-2);
+    transition: background-color 0.7s;
+  }
+
+  &:active {
+    opacity: 0.8;
+    transition: opacity 0.3s;
+  }
+}
+
+.processed-tag {
+  background-color: var(--el-color-secondary);
+  border-color: var(--el-color-secondary);
+}

@@ -1,0 +1,77 @@
+.container {
+  width: 30%;
+
+  & > h2 {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.photo-container {
+  margin-top: 1rem;
+}
+
+.users-view {
+  &__header {
+    width: 100%;
+    display: inline-flex;
+  }
+
+  &__section {
+    margin-top: 32px;
+    padding-left: 45px;
+  }
+}
+
+.user-form {
+  margin-bottom: 2rem;
+}
+
+.page-title {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.actions-wrapper {
+  flex-grow: 1;
+  flex-basis: 0;
+  gap: 8px;
+  display: inline-flex;
+  align-items: flex-end;
+}
+
+.users-list {
+  &-container {
+    gap: 16px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+  }
+
+  &-item {
+    height: 180px;
+    width: calc(25% - 12px);
+  }
+}
+
+.without-options {
+  height: 120px;
+}
+
+.data-type-select {
+  width: 100%;
+}
+
+.divider {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border-width: 2px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+  &-bottom {
+    margin-top: 16px;
+  }
+}

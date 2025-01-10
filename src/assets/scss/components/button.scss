@@ -1,0 +1,6 @@
+.el-button,
+.el-color-primary {
+  &:hover {
+    background-color: var(--el-color-secondary) !important;
+  }
+}

@@ -1,0 +1,82 @@
+$primary: #153c78;
+$on-white: #ffffff;
+$secondary: #457dd2;
+$on-secondary: #ffffff;
+$white: #ffffff;
+$neutral-1: #f8f8f8;
+$neutral-2: #eeeeee;
+$neutral-3: #d8d8d8;
+$on-neutral-3: #080809;
+$neutral-4: #cccccc;
+$neutral-5: #dfe8f4;
+$info: #909399;
+$typography: #606266;
+$black: #404040;
+$success: #38ab52;
+$warning: #ffc107;
+$danger: #dc3545;
+$error: #dc3545;
+$on-neutral-variant: #8e9094;
+$on-warning: #242424;
+
+.color--primary {
+  color: $primary !important;
+}
+
+.color--secondary {
+  color: $secondary !important;
+}
+
+.color--white {
+  color: $white !important;
+}
+
+.color--info {
+  color: $info !important;
+}
+
+.color--black {
+  color: $black !important;
+}
+
+.color--success {
+  color: $success !important;
+}
+
+.color--warning {
+  color: $warning !important;
+}
+
+.color--danger {
+  color: $danger !important;
+}
+
+.color--error {
+  color: $error !important;
+}
+
+.background--primary {
+  background-color: $primary !important;
+}
+
+.background--secondary {
+  background-color: $secondary !important;
+}
+
+.border-color--neutral {
+  border-color: $neutral-4 !important;
+}
+
+:root {
+  --el-color-surface: #ffffff;
+  --el-color-on-surface: #606266;
+  --el-color-on-surface-variant: #8e9094;
+
+  --el-color-on-error: #ffffff;
+
+  --el-color-neutral-1: #f8f8f8;
+  --el-color-neutral-2: #eeeeee;
+  --el-color-neutral-3: #d8d8d8;
+  --el-color-neutral-4: #cccccc;
+  --el-color-on-neutral-3: #080809;
+}

@@ -1,0 +1,39 @@
+.metrics {
+  &-container {
+    gap: 8px;
+    margin: 8px 0;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-left: 22px;
+  }
+
+  &-item {
+    width: 32%;
+    min-width: 110px;
+  }
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 70vh;
+}
+
+.modal-graph {
+  flex-grow: 1;
+}
+
+.model {
+  &-container {
+    gap: 8px;
+    margin: 8px 0;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-left: 22px;
+  }
+
+  &-item {
+    width: calc(25% - 8px);
+  }
+}

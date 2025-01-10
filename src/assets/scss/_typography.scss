@@ -1,0 +1,73 @@
+@use 'colors';
+
+@mixin typography($color, $fontWeight, $fontSize, $lineHeight) {
+  color: $color;
+  font-style: normal;
+  font-weight: $fontWeight;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  word-break: break-all;
+
+  @media only screen and (max-width: 600px) {
+    font-size: calc($fontSize - 4px);
+    line-height: calc($lineHeight - 4px);
+  }
+}
+
+.title--lg {
+  color: var(--el-color-on-surface);
+  @include typography(colors.$typography, 600, 24px, 28px);
+}
+
+.title--md {
+  color: var(--el-color-on-surface);
+  @include typography(colors.$typography, 700, 16px, 20px);
+}
+
+.title--sm {
+  @include typography(colors.$typography, 700, 14px, 18px);
+}
+
+.subtitle--lg {
+  color: var(--el-color-on-surface);
+  @include typography(colors.$typography, 500, 14px, 18px);
+}
+
+.subtitle--md {
+  @include typography(colors.$typography, 400, 14px, 18px);
+}
+
+.subtitle--sm {
+  @include typography(colors.$typography, 400, 10px, 14px);
+}
+
+.text--lg {
+  @include typography(colors.$typography, 500, 16px, 20px);
+}
+
+.text--md {
+  color: var(--el-color-on-surface);
+  @include typography(colors.$typography, 400, 14px, 18px);
+}
+
+.text--sm {
+  @include typography(colors.$typography, 400, 10px, 14px);
+}
+
+.button-text {
+  @include typography(colors.$typography, 600, 14px, 18px);
+}
+
+.bold {
+  font-weight: bold !important;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

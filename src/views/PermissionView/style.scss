@@ -1,0 +1,36 @@
+.permission-view {
+  &__header {
+    width: 100%;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 32px;
+  }
+
+  &__body {
+    width: 100%;
+    padding-left: 45px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.input-name {
+  width: 30%;
+  max-width: 400px;
+  margin-right: 45px !important;
+}
+
+.permissions-list {
+  padding: 0;
+  list-style: none;
+  margin-top: 16px;
+  gap: 16px;
+  display: inline-flex;
+  flex-wrap: wrap;
+
+  &-item {
+    height: 150px;
+    width: calc(25% - 12px);
+  }
+}

@@ -1,0 +1,116 @@
+.board {
+  &-container {
+    height: 100%;
+    width: 5vw !important;
+    height: 100%;
+    overflow-y: auto !important;
+    padding: 16px;
+    background-color: var(--el-color-neutral-1);
+    border: 1px solid var(--el-color-neutral-4);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    transition: all 0.1s linear !important;
+
+    &:not(.board-collapse) {
+      width: 25vw !important;
+    }
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__body {
+    display: none;
+    transition: all 0.75s linear !important;
+    &:not(.collapse-items) {
+      height: 100%;
+      display: block;
+    }
+  }
+
+  &-os-list {
+    list-style: none;
+    padding: 0;
+    flex-grow: 1;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  &-os-item {
+    margin: 0.5rem 0;
+  }
+
+  &-actions-container {
+    gap: 16px;
+    display: inline-flex;
+    align-items: center;
+  }
+}
+
+.drag-list {
+  height: calc(100vh - 320px);
+  overflow: auto;
+
+  @media screen and (max-height: 768px) {
+    height: calc(100vh - 148px);
+  }
+}
+
+.empty-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.files-icon {
+  color: $typography !important;
+}
+
+.groups-count {
+  gap: 4px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.title-container {
+  color: $typography !important;
+  flex-direction: column !important;
+  gap: 4px;
+
+  &:not(.board-collapse) {
+    align-items: center;
+    flex-direction: row !important;
+
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.collapsed-align {
+  writing-mode: vertical-lr !important;
+
+  gap: 4rem;
+}
+
+.disabled {
+  background-color: #606266;
+  border-color: #606266;
+
+  &:hover {
+    background-color: #404040;
+  }
+}

@@ -1,0 +1,56 @@
+.dashboard-view {
+  display: flex;
+  flex-direction: column;
+
+  &__header {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  &__body {
+    flex-grow: 1;
+    display: flex;
+    margin-top: 32px;
+    padding-left: 45px;
+  }
+}
+
+.empty-container {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-container {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.actions-wrapper {
+  display: inline-flex;
+  gap: 16px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.dashboard-cards-container {
+  display: inline-flex;
+  gap: 16px;
+  width: 100%;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0 !important;
+  align-content: flex-start;
+}
+
+.dashboard-card-container {
+  width: calc(25% - 12px);
+  height: 180px;
+}
+
+.without-options {
+  height: 120px;
+}

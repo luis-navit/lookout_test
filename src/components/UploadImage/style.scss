@@ -1,0 +1,69 @@
+.cropper {
+  height: 60vh;
+  width: 50vw;
+  background: #ddd;
+}
+
+.cropper-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-upolad {
+  &__preview {
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+  }
+}
+
+.smooth {
+  border-radius: 10px;
+  border: 1px solid transparent;
+}
+
+.image-container__wrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.upload-container {
+  width: 160px;
+  display: flex;
+  margin-top: 8px;
+  justify-content: center;
+
+  &__trigger {
+    width: 160px !important;
+  }
+}
+
+.preview {
+  border: dashed 2px var(--el-color-info);
+}
+
+.twitter-cropper {
+  &__background {
+    background-color: var(--el-color-neutral-1);
+    opacity: 1;
+  }
+  &__foreground {
+    background-color: var(--el-color-neutral-2);
+  }
+}
+
+.handler {
+  background-color: var(--el-color-info);
+  border-color: var(--el-color-info);
+}
+
+.upload-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

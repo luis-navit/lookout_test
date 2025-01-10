@@ -1,0 +1,40 @@
+.permissions-view {
+  &__header {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+  }
+
+  &__body {
+    margin-top: 32px;
+    margin-left: 45px;
+  }
+}
+
+.header-actions {
+  gap: 8px;
+  width: 50%;
+  display: inline-flex;
+  align-items: flex-end;
+}
+
+.permissions {
+  &-list {
+    gap: 16px;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    flex-wrap: wrap;
+    display: inline-flex;
+    align-content: flex-start;
+
+    &__item {
+      width: calc(25% - 12px);
+      height: 150px;
+    }
+  }
+}
+
+.without-options {
+  height: 120px;
+}

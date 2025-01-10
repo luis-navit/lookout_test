@@ -1,0 +1,24 @@
+.time-form {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+
+  &__submit {
+    display: flex;
+    justify-content: flex-end;
+    flex-shrink: 0;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+}
+.input-number {
+  width: 100%;
+}
+
+.grow {
+  width: 100%;
+}

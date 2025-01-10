@@ -1,0 +1,24 @@
+.themes-view {
+  &__header {
+    width: 100%;
+    display: inline-flex;
+  }
+
+  &__section {
+    margin-top: 32px;
+    padding-left: 45px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.page-title {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.demo-tabs {
+  width: 100%;
+}

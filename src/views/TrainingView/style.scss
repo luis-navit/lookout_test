@@ -1,0 +1,92 @@
+.training-view {
+  &__wrapper {
+    padding-left: 45px;
+    padding-right: 45px;
+    width: calc(100% - 90px);
+
+    &:not(.is-collapse) {
+      width: calc(100% - 200px);
+    }
+  }
+
+  &__header {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  &__content {
+    margin-top: 32px;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+.table-container {
+  padding: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+.iframe {
+  width: 910px;
+  height: 820px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.graph-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.collapse-content {
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 32px;
+}
+
+.rules {
+  &-container {
+    margin-top: 16px;
+  }
+
+  &-content {
+    display: inline-flex;
+    gap: 16px;
+    width: 100%;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+  }
+}
+
+.rule {
+  width: calc(25% - 12px);
+  height: 300px;
+}
+
+.graph {
+  &__header {
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+  }
+
+  &--tree {
+    padding: 16px;
+    border: 1px solid var(--el-color-neutral-4);
+    border-radius: 16px;
+  }
+}
+
+.modal-download {
+  margin-right: auto;
+  margin-left: 8px;
+}

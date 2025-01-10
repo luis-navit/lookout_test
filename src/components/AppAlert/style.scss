@@ -1,0 +1,40 @@
+.alert-container {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.alerts-inner-container {
+  padding: 16px;
+  max-height: 50vh;
+}
+
+.alert-dropdown-item {
+  width: 100%;
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+
+  &:hover {
+    i {
+      visibility: visible !important;
+    }
+  }
+}
+
+.clear-all-notifications {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hide-icon {
+  visibility: hidden;
+}
+
+.bell-icon {
+  color: var(--el-color-on-surface);
+}
